@@ -21,12 +21,18 @@ final class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNavigation()
         setUI()
         setTableView()
     }
 }
 
 private extension HomeViewController {
+    func setNavigation() {
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.title = "Home"
+    }
+    
     func setUI() {
         view.backgroundColor = .white
         view.addSubview(tableview)
@@ -38,6 +44,7 @@ private extension HomeViewController {
     }
     
     func setTableView() {
+        tableview.separatorStyle = .none
         renderer.target = tableview
         renderer.render {
             Header(title: "예시 앱 모음")

@@ -11,5 +11,25 @@ import Carbon
 import SnapKit
 
 final class HelloViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setNavigation()
+        setUI()
+        setTableView()
+    }
+}
+
+private extension HelloViewController {
+    func setNavigation() {
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.title = "Hello"
+    }
     
+    func setUI() {
+        self.view.backgroundColor = .white
+    }
+    
+    func setTableView() {
+        
+    }
 }

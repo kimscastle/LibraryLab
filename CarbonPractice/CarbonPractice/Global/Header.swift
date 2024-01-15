@@ -31,7 +31,8 @@ struct Header: IdentifiableComponent {
 final class HeaderContent: UIView {
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .boldSystemFont(ofSize: 30)
+        label.textColor = .systemGreen
+        label.font = .boldSystemFont(ofSize: 20)
         return label
     }()
     

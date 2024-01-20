@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "A4E2815A-51CE-4DB6-A301-BFFA1E188DCA",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:CarbonPractice.xcodeproj",
+      "identifier" : "C03884CA2B5536BD00DD7ADB",
+      "name" : "CarbonPractice"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CarbonPractice.xcodeproj",
+        "identifier" : "C03884E02B5536BF00DD7ADB",
+        "name" : "CarbonPracticeTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CarbonPractice.xcodeproj",
+        "identifier" : "C03884EA2B5536BF00DD7ADB",
+        "name" : "CarbonPracticeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -25,6 +25,10 @@ final class HomeViewController: UIViewController {
         setUI()
         setTableView()
     }
+    
+    deinit {
+        print("homeVC가 메모리에서 해제되었습니다")
+    }
 }
 
 private extension HomeViewController {

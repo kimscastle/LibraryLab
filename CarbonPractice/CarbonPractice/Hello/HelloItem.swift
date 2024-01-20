@@ -1,5 +1,5 @@
 //
-//  Header.swift
+//  HelloItem.swift
 //  CarbonPractice
 //
 //  Created by uiskim on 2024/01/16.
@@ -10,30 +10,39 @@ import UIKit
 import Carbon
 import SnapKit
 
-struct Header: IdentifiableComponent {
+struct HelloItem: IdentifiableComponent {
     var title: String
-    
     var id: String {
         return title
     }
-    func render(in content: HeaderContent) {
-        content.titleLabel.text = title
+    
+    func render(in content: HelloContent) {
+        content.nameLabel.text = title
     }
     
-    func renderContent() -> HeaderContent {
+    func renderContent() -> HelloContent {
         return .init()
     }
     
     func referenceSize(in bounds: CGRect) -> CGSize? {
         .init(width: AppSize.width, height: 50)
     }
+    
+    func contentDidEndDisplay(_ content: HelloContent) {
+        content.nameLabel.text = nil
+    }
+    
+    func contentWillDisplay(_ content: HelloContent) {
+        content.nameLabel.text = title
+    }
 }
 
-final class HeaderContent: UIView {
-    let titleLabel: UILabel = {
+
+final class HelloContent: UIView {
+    
+    let nameLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .systemGreen
-        label.font = .boldSystemFont(ofSize: 20)
+        label.font = .systemFont(ofSize: 20)
         return label
     }()
     
@@ -47,11 +56,10 @@ final class HeaderContent: UIView {
     }
     
     private func setUI() {
-        self.addSubview(titleLabel)
-        titleLabel.snp.makeConstraints { make in
+        addSubview(nameLabel)
+        nameLabel.snp.makeConstraints { make in
             make.top.bottom.equalToSuperview()
-            make.centerY.equalToSuperview()
-            make.leading.equalToSuperview().inset(20)
+            make.leading.trailing.equalToSuperview().inset(20)
         }
     }
 }

@@ -13,25 +13,19 @@
 		C03884D82B5536BF00DD7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03884D72B5536BF00DD7ADB /* Assets.xcassets */; };
 		C03884DB2B5536BF00DD7ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03884D92B5536BF00DD7ADB /* LaunchScreen.storyboard */; };
 		C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */; };
-		C03884F02B5536BF00DD7ADB /* CarbonPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03884EF2B5536BF00DD7ADB /* CarbonPracticeUITests.swift */; };
-		C03884F22B5536BF00DD7ADB /* CarbonPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03884F12B5536BF00DD7ADB /* CarbonPracticeUITestsLaunchTests.swift */; };
 		C03885012B553E3400DD7ADB /* Carbon in Frameworks */ = {isa = PBXBuildFile; productRef = C03885002B553E3400DD7ADB /* Carbon */; };
 		C03885042B553E5000DD7ADB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C03885032B553E5000DD7ADB /* SnapKit */; };
 		C038850A2B5558D200DD7ADB /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03885092B5558D200DD7ADB /* HomeItem.swift */; };
 		C038850C2B55CABB00DD7ADB /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038850B2B55CABB00DD7ADB /* HelloViewController.swift */; };
 		C038850E2B55CC1C00DD7ADB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038850D2B55CC1C00DD7ADB /* Header.swift */; };
 		C03885102B55CFB400DD7ADB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038850F2B55CFB400DD7ADB /* Global.swift */; };
+		C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03885192B55DD4600DD7ADB /* HelloItem.swift */; };
+		C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038851B2B55DF4C00DD7ADB /* Footer.swift */; };
+		C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C03884E22B5536BF00DD7ADB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C03884C32B5536BD00DD7ADB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C03884CA2B5536BD00DD7ADB;
-			remoteInfo = CarbonPractice;
-		};
-		C03884EC2B5536BF00DD7ADB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C03884C32B5536BD00DD7ADB /* Project object */;
 			proxyType = 1;
@@ -50,13 +44,14 @@
 		C03884DC2B5536BF00DD7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03884E12B5536BF00DD7ADB /* CarbonPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonPracticeTests.swift; sourceTree = "<group>"; };
-		C03884EB2B5536BF00DD7ADB /* CarbonPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C03884EF2B5536BF00DD7ADB /* CarbonPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonPracticeUITests.swift; sourceTree = "<group>"; };
-		C03884F12B5536BF00DD7ADB /* CarbonPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C03885092B5558D200DD7ADB /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		C038850B2B55CABB00DD7ADB /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		C038850D2B55CC1C00DD7ADB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		C038850F2B55CFB400DD7ADB /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C03885192B55DD4600DD7ADB /* HelloItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloItem.swift; sourceTree = "<group>"; };
+		C038851B2B55DF4C00DD7ADB /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		C0EA640A2B5B5EF2005038AF /* CarbonPractice.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarbonPractice.xctestplan; sourceTree = "<group>"; };
+		C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,22 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C03884E82B5536BF00DD7ADB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C03884C22B5536BD00DD7ADB = {
 			isa = PBXGroup;
 			children = (
+				C0EA640A2B5B5EF2005038AF /* CarbonPractice.xctestplan */,
 				C03884CD2B5536BD00DD7ADB /* CarbonPractice */,
 				C03884E42B5536BF00DD7ADB /* CarbonPracticeTests */,
-				C03884EE2B5536BF00DD7ADB /* CarbonPracticeUITests */,
 				C03884CC2B5536BD00DD7ADB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +89,6 @@
 			children = (
 				C03884CB2B5536BD00DD7ADB /* CarbonPractice.app */,
 				C03884E12B5536BF00DD7ADB /* CarbonPracticeTests.xctest */,
-				C03884EB2B5536BF00DD7ADB /* CarbonPracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,17 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */,
+				C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */,
 			);
 			path = CarbonPracticeTests;
-			sourceTree = "<group>";
-		};
-		C03884EE2B5536BF00DD7ADB /* CarbonPracticeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C03884EF2B5536BF00DD7ADB /* CarbonPracticeUITests.swift */,
-				C03884F12B5536BF00DD7ADB /* CarbonPracticeUITestsLaunchTests.swift */,
-			);
-			path = CarbonPracticeUITests;
 			sourceTree = "<group>";
 		};
 		C03885112B55D51E00DD7ADB /* Home */ = {
@@ -149,6 +128,7 @@
 			children = (
 				C038850D2B55CC1C00DD7ADB /* Header.swift */,
 				C038850F2B55CFB400DD7ADB /* Global.swift */,
+				C038851B2B55DF4C00DD7ADB /* Footer.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -168,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				C038850B2B55CABB00DD7ADB /* HelloViewController.swift */,
+				C03885192B55DD4600DD7ADB /* HelloItem.swift */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -214,24 +195,6 @@
 			productReference = C03884E12B5536BF00DD7ADB /* CarbonPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C03884EA2B5536BF00DD7ADB /* CarbonPracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C03884FB2B5536BF00DD7ADB /* Build configuration list for PBXNativeTarget "CarbonPracticeUITests" */;
-			buildPhases = (
-				C03884E72B5536BF00DD7ADB /* Sources */,
-				C03884E82B5536BF00DD7ADB /* Frameworks */,
-				C03884E92B5536BF00DD7ADB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C03884ED2B5536BF00DD7ADB /* PBXTargetDependency */,
-			);
-			name = CarbonPracticeUITests;
-			productName = CarbonPracticeUITests;
-			productReference = C03884EB2B5536BF00DD7ADB /* CarbonPracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,10 +209,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					C03884E02B5536BF00DD7ADB = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = C03884CA2B5536BD00DD7ADB;
-					};
-					C03884EA2B5536BF00DD7ADB = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = C03884CA2B5536BD00DD7ADB;
 					};
@@ -274,7 +233,6 @@
 			targets = (
 				C03884CA2B5536BD00DD7ADB /* CarbonPractice */,
 				C03884E02B5536BF00DD7ADB /* CarbonPracticeTests */,
-				C03884EA2B5536BF00DD7ADB /* CarbonPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,13 +254,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C03884E92B5536BF00DD7ADB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,11 +261,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */,
 				C03884D32B5536BD00DD7ADB /* HomeViewController.swift in Sources */,
 				C038850C2B55CABB00DD7ADB /* HelloViewController.swift in Sources */,
 				C038850A2B5558D200DD7ADB /* HomeItem.swift in Sources */,
 				C03884CF2B5536BD00DD7ADB /* AppDelegate.swift in Sources */,
 				C038850E2B55CC1C00DD7ADB /* Header.swift in Sources */,
+				C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */,
 				C03884D12B5536BD00DD7ADB /* SceneDelegate.swift in Sources */,
 				C03885102B55CFB400DD7ADB /* Global.swift in Sources */,
 			);
@@ -325,15 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C03884E72B5536BF00DD7ADB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C03884F22B5536BF00DD7ADB /* CarbonPracticeUITestsLaunchTests.swift in Sources */,
-				C03884F02B5536BF00DD7ADB /* CarbonPracticeUITests.swift in Sources */,
+				C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,11 +289,6 @@
 			isa = PBXTargetDependency;
 			target = C03884CA2B5536BD00DD7ADB /* CarbonPractice */;
 			targetProxy = C03884E22B5536BF00DD7ADB /* PBXContainerItemProxy */;
-		};
-		C03884ED2B5536BF00DD7ADB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C03884CA2B5536BD00DD7ADB /* CarbonPractice */;
-			targetProxy = C03884EC2B5536BF00DD7ADB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -587,42 +527,6 @@
 			};
 			name = Release;
 		};
-		C03884FC2B5536BF00DD7ADB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z225784MRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uikit.CarbonPracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CarbonPractice;
-			};
-			name = Debug;
-		};
-		C03884FD2B5536BF00DD7ADB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Z225784MRD;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = uikit.CarbonPracticeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CarbonPractice;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -649,15 +553,6 @@
 			buildConfigurations = (
 				C03884F92B5536BF00DD7ADB /* Debug */,
 				C03884FA2B5536BF00DD7ADB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C03884FB2B5536BF00DD7ADB /* Build configuration list for PBXNativeTarget "CarbonPracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C03884FC2B5536BF00DD7ADB /* Debug */,
-				C03884FD2B5536BF00DD7ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

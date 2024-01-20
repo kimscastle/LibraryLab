@@ -24,6 +24,7 @@
 		C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */; };
 		C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64122B5B8CDF005038AF /* PangramViewController.swift */; };
 		C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64142B5B8D10005038AF /* PangramItem.swift */; };
+		C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64162B5BAD36005038AF /* PangramTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTest.swift; sourceTree = "<group>"; };
 		C0EA64122B5B8CDF005038AF /* PangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramViewController.swift; sourceTree = "<group>"; };
 		C0EA64142B5B8D10005038AF /* PangramItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramItem.swift; sourceTree = "<group>"; };
+		C0EA64162B5BAD36005038AF /* PangramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */,
 				C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */,
+				C0EA64162B5BAD36005038AF /* PangramTest.swift */,
 			);
 			path = CarbonPracticeTests;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */,
 				C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */,
 				C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */,
 			);

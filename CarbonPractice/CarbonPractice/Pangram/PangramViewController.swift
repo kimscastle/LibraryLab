@@ -17,7 +17,7 @@ final class PangramViewController: UIViewController {
         }
     }
     
-    private lazy var collectionView: UICollectionView = {
+    lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.sectionInset = .init(top: 0, left: 16, bottom: 30, right: 16)
         layout.minimumInteritemSpacing = 24

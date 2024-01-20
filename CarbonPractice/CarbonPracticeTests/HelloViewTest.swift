@@ -14,11 +14,9 @@ final class HelloViewTest: XCTestCase {
 
     override func setUpWithError() throws {
         self.helloVC = HelloViewController()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         self.helloVC = nil
     }
     
@@ -95,5 +93,29 @@ final class HelloViewTest: XCTestCase {
         
         XCTAssertEqual(content0?.nameLabel.text!, "의성1")
         XCTAssertEqual(content1?.nameLabel.text!, "의성3")
+    }
+    
+    func test_VC터치했을때_toggle_true에서_false로_잘_바뀌는지() {
+        //given
+        helloVC.toggle = true
+        //when
+        helloVC.touchesEnded(.init(), with: .init())
+        
+        //then
+        XCTAssertEqual(helloVC.toggle, false)
+        let numberOfCells = helloVC.renderer.adapter.tableView(helloVC.tableView, numberOfRowsInSection: 0)
+        XCTAssertEqual(numberOfCells, 4)
+    }
+    
+    func test_VC터치했을때_toggle_false에서_true로_잘_바뀌는지() {
+        //given
+        helloVC.toggle = false
+        //when
+        helloVC.touchesEnded(.init(), with: .init())
+        
+        //then
+        XCTAssertEqual(helloVC.toggle, true)
+        let numberOfCells = helloVC.renderer.adapter.tableView(helloVC.tableView, numberOfRowsInSection: 0)
+        XCTAssertEqual(numberOfCells, 5)
     }
 }

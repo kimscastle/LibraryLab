@@ -22,6 +22,8 @@
 		C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03885192B55DD4600DD7ADB /* HelloItem.swift */; };
 		C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038851B2B55DF4C00DD7ADB /* Footer.swift */; };
 		C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */; };
+		C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64122B5B8CDF005038AF /* PangramViewController.swift */; };
+		C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64142B5B8D10005038AF /* PangramItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C038851B2B55DF4C00DD7ADB /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
 		C0EA640A2B5B5EF2005038AF /* CarbonPractice.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarbonPractice.xctestplan; sourceTree = "<group>"; };
 		C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTest.swift; sourceTree = "<group>"; };
+		C0EA64122B5B8CDF005038AF /* PangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramViewController.swift; sourceTree = "<group>"; };
+		C0EA64142B5B8D10005038AF /* PangramItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		C03884CD2B5536BD00DD7ADB /* CarbonPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C0EA64112B5B8CCB005038AF /* Pangram */,
 				C03885142B55D54D00DD7ADB /* Hello */,
 				C03885132B55D53A00DD7ADB /* App */,
 				C03885122B55D52E00DD7ADB /* Global */,
@@ -151,6 +156,15 @@
 				C03885192B55DD4600DD7ADB /* HelloItem.swift */,
 			);
 			path = Hello;
+			sourceTree = "<group>";
+		};
+		C0EA64112B5B8CCB005038AF /* Pangram */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA64122B5B8CDF005038AF /* PangramViewController.swift */,
+				C0EA64142B5B8D10005038AF /* PangramItem.swift */,
+			);
+			path = Pangram;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */,
 				C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */,
 				C03884D32B5536BD00DD7ADB /* HomeViewController.swift in Sources */,
 				C038850C2B55CABB00DD7ADB /* HelloViewController.swift in Sources */,
@@ -268,6 +283,7 @@
 				C03884CF2B5536BD00DD7ADB /* AppDelegate.swift in Sources */,
 				C038850E2B55CC1C00DD7ADB /* Header.swift in Sources */,
 				C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */,
+				C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */,
 				C03884D12B5536BD00DD7ADB /* SceneDelegate.swift in Sources */,
 				C03885102B55CFB400DD7ADB /* Global.swift in Sources */,
 			);

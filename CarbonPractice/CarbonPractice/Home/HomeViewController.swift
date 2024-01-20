@@ -83,9 +83,10 @@ private extension HomeViewController {
         switch destination {
         case .hello:
             controller = HelloViewController()
+        case .pangram:
+            controller = PangramViewController()
         default:
             controller = HelloViewController()
-            print("✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅")
         }
         self.navigationController?.pushViewController(controller, animated: true)
     }

@@ -25,6 +25,12 @@
 		C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64122B5B8CDF005038AF /* PangramViewController.swift */; };
 		C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64142B5B8D10005038AF /* PangramItem.swift */; };
 		C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64162B5BAD36005038AF /* PangramTest.swift */; };
+		C0EA8E4F2B5CD4E20073C1D4 /* KyotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA8E4E2B5CD4E20073C1D4 /* KyotoViewController.swift */; };
+		C0EA8E512B5CD5AC0073C1D4 /* KyotoTopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA8E502B5CD5AC0073C1D4 /* KyotoTopItem.swift */; };
+		C0EA8E532B5CF0A20073C1D4 /* KyotoImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA8E522B5CF0A20073C1D4 /* KyotoImageItem.swift */; };
+		C0EA8E562B5CF7A30073C1D4 /* MagazineLayout in Frameworks */ = {isa = PBXBuildFile; productRef = C0EA8E552B5CF7A30073C1D4 /* MagazineLayout */; };
+		C0EA8E582B5CF84B0073C1D4 /* KyotoMagazineLayoutAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA8E572B5CF84B0073C1D4 /* KyotoMagazineLayoutAdapter.swift */; };
+		C0EA8E5A2B5D2A160073C1D4 /* KyotoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA8E592B5D2A160073C1D4 /* KyotoTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,11 @@
 		C0EA64122B5B8CDF005038AF /* PangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramViewController.swift; sourceTree = "<group>"; };
 		C0EA64142B5B8D10005038AF /* PangramItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramItem.swift; sourceTree = "<group>"; };
 		C0EA64162B5BAD36005038AF /* PangramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramTest.swift; sourceTree = "<group>"; };
+		C0EA8E4E2B5CD4E20073C1D4 /* KyotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyotoViewController.swift; sourceTree = "<group>"; };
+		C0EA8E502B5CD5AC0073C1D4 /* KyotoTopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyotoTopItem.swift; sourceTree = "<group>"; };
+		C0EA8E522B5CF0A20073C1D4 /* KyotoImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyotoImageItem.swift; sourceTree = "<group>"; };
+		C0EA8E572B5CF84B0073C1D4 /* KyotoMagazineLayoutAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyotoMagazineLayoutAdapter.swift; sourceTree = "<group>"; };
+		C0EA8E592B5D2A160073C1D4 /* KyotoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyotoTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +78,7 @@
 			files = (
 				C03885012B553E3400DD7ADB /* Carbon in Frameworks */,
 				C03885042B553E5000DD7ADB /* SnapKit in Frameworks */,
+				C0EA8E562B5CF7A30073C1D4 /* MagazineLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +114,7 @@
 		C03884CD2B5536BD00DD7ADB /* CarbonPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C0EA8E4D2B5CD4D30073C1D4 /* Kyoto */,
 				C0EA64112B5B8CCB005038AF /* Pangram */,
 				C03885142B55D54D00DD7ADB /* Hello */,
 				C03885132B55D53A00DD7ADB /* App */,
@@ -118,6 +131,7 @@
 				C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */,
 				C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */,
 				C0EA64162B5BAD36005038AF /* PangramTest.swift */,
+				C0EA8E592B5D2A160073C1D4 /* KyotoTest.swift */,
 			);
 			path = CarbonPracticeTests;
 			sourceTree = "<group>";
@@ -170,6 +184,17 @@
 			path = Pangram;
 			sourceTree = "<group>";
 		};
+		C0EA8E4D2B5CD4D30073C1D4 /* Kyoto */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA8E4E2B5CD4E20073C1D4 /* KyotoViewController.swift */,
+				C0EA8E502B5CD5AC0073C1D4 /* KyotoTopItem.swift */,
+				C0EA8E522B5CF0A20073C1D4 /* KyotoImageItem.swift */,
+				C0EA8E572B5CF84B0073C1D4 /* KyotoMagazineLayoutAdapter.swift */,
+			);
+			path = Kyoto;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -189,6 +214,7 @@
 			packageProductDependencies = (
 				C03885002B553E3400DD7ADB /* Carbon */,
 				C03885032B553E5000DD7ADB /* SnapKit */,
+				C0EA8E552B5CF7A30073C1D4 /* MagazineLayout */,
 			);
 			productName = CarbonPractice;
 			productReference = C03884CB2B5536BD00DD7ADB /* CarbonPractice.app */;
@@ -243,6 +269,7 @@
 			packageReferences = (
 				C03884FF2B553E3400DD7ADB /* XCRemoteSwiftPackageReference "Carbon" */,
 				C03885022B553E5000DD7ADB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C0EA8E542B5CF7A30073C1D4 /* XCRemoteSwiftPackageReference "MagazineLayout" */,
 			);
 			productRefGroup = C03884CC2B5536BD00DD7ADB /* Products */;
 			projectDirPath = "";
@@ -278,8 +305,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EA8E512B5CD5AC0073C1D4 /* KyotoTopItem.swift in Sources */,
 				C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */,
 				C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */,
+				C0EA8E532B5CF0A20073C1D4 /* KyotoImageItem.swift in Sources */,
 				C03884D32B5536BD00DD7ADB /* HomeViewController.swift in Sources */,
 				C038850C2B55CABB00DD7ADB /* HelloViewController.swift in Sources */,
 				C038850A2B5558D200DD7ADB /* HomeItem.swift in Sources */,
@@ -287,8 +316,10 @@
 				C038850E2B55CC1C00DD7ADB /* Header.swift in Sources */,
 				C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */,
 				C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */,
+				C0EA8E4F2B5CD4E20073C1D4 /* KyotoViewController.swift in Sources */,
 				C03884D12B5536BD00DD7ADB /* SceneDelegate.swift in Sources */,
 				C03885102B55CFB400DD7ADB /* Global.swift in Sources */,
+				C0EA8E582B5CF84B0073C1D4 /* KyotoMagazineLayoutAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0EA8E5A2B5D2A160073C1D4 /* KyotoTest.swift in Sources */,
 				C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */,
 				C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */,
 				C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */,
@@ -596,6 +628,14 @@
 				minimumVersion = 5.7.0;
 			};
 		};
+		C0EA8E542B5CF7A30073C1D4 /* XCRemoteSwiftPackageReference "MagazineLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/MagazineLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -608,6 +648,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C03885022B553E5000DD7ADB /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		C0EA8E552B5CF7A30073C1D4 /* MagazineLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EA8E542B5CF7A30073C1D4 /* XCRemoteSwiftPackageReference "MagazineLayout" */;
+			productName = MagazineLayout;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

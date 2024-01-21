@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "magazinelayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/MagazineLayout",
+      "state" : {
+        "revision" : "98784b3b808178783ee6ef2fdb1774e88b0e6b30",
+        "version" : "1.7.0"
+      }
+    },
+    {
       "identity" : "snapkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SnapKit/SnapKit",

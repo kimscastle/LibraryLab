@@ -85,6 +85,8 @@ private extension HomeViewController {
             controller = HelloViewController()
         case .pangram:
             controller = PangramViewController()
+        case .kyoto:
+            controller = KyotoViewController()
         default:
             controller = HelloViewController()
         }

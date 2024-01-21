@@ -25,7 +25,7 @@ struct Header: IdentifiableComponent {
     }
     
     func referenceSize(in bounds: CGRect) -> CGSize? {
-        .init(width: AppSize.width, height: 50)
+        .init(width: AppSize.width, height: 64)
     }
 }
 

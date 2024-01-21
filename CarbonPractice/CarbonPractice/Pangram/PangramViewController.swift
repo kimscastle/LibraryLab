@@ -39,7 +39,6 @@ final class PangramViewController: UIViewController {
         view.backgroundColor = .black
         title = "Pangram"
         collectionView.contentInset.top = 40
-        
         view.addSubview(collectionView)
         view.addSubview(button)
 

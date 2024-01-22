@@ -1,4 +1,4 @@
-//
+
 //  KyotoMagazineLayoutAdapter.swift
 //  CarbonPractice
 //
@@ -11,7 +11,7 @@ import MagazineLayout
 
 extension MagazineLayoutCollectionViewCell: ComponentRenderable {}
 
-final class KyotoMagazineLayoutAdapter: UICollectionViewAdapter, UICollectionViewDelegateMagazineLayout {
+final class KyotoMagazineLayoutAdapter: UICollectionViewAdapter {
     override func cellRegistration(collectionView: UICollectionView, indexPath: IndexPath, node: CellNode) -> CellRegistration {
         CellRegistration(class: MagazineLayoutCollectionViewCell.self)
     }
@@ -28,7 +28,9 @@ final class KyotoMagazineLayoutAdapter: UICollectionViewAdapter, UICollectionVie
             return super.supplementaryViewNode(forElementKind: kind, collectionView: collectionView, at: indexPath)
         }
     }
+}
 
+extension KyotoMagazineLayoutAdapter: UICollectionViewDelegateMagazineLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeModeForItemAt indexPath: IndexPath) -> MagazineLayoutItemSizeMode {
         let node = cellNode(at: indexPath)
         guard let size = node.component.referenceSize(in: collectionView.bounds) else {
@@ -46,12 +48,14 @@ final class KyotoMagazineLayoutAdapter: UICollectionViewAdapter, UICollectionVie
         guard let node = headerNode(in: index) else {
             return .hidden
         }
-
+            
+        // 높이를 잡은녀석은 static으로 하고 안잡은 녀석은 .visible로 해라의 의미
         guard let referenceSize = node.component.referenceSize(in: collectionView.bounds) else {
             return .visible(heightMode: .dynamic)
         }
 
         return .visible(heightMode: .static(height: referenceSize.height))
+            
     }
 
     func collectionView(
@@ -91,7 +95,7 @@ final class KyotoMagazineLayoutAdapter: UICollectionViewAdapter, UICollectionVie
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetsForItemsInSectionAtIndex index: Int) -> UIEdgeInsets {
-        UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+        .init(top: 0, left: 10, bottom: 0, right: 10)
     }
 }
 

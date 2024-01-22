@@ -64,7 +64,7 @@ final class PangramViewController: UIViewController {
         let pangram = isSorted ? ["ABC", "DEF", "GHI", "JKL", "MNO", "PQR", "STU", "VWY", "XZ"] : ["THE", "QUICK", "BROWN", "FOX", "JUMPS", "OVER", "THE", "LAZY", "DOG"]
         renderer.render {
             Group(of: pangram.enumerated()) { index, word in
-                Section(id: index) {
+                Section(id: index, header: Header(title: "gg")) {
                     Group(of: word) { text in
                         PangramItem(title: String(text))
                     }

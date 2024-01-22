@@ -11,6 +11,12 @@ import Carbon
 import SnapKit
 import MagazineLayout
 
+struct KyotoData {
+    var title: String
+    var image: UIImage
+    var isVisited: Bool = false
+}
+
 final class KyotoViewController: UIViewController {
     
     enum ID {
@@ -31,27 +37,16 @@ final class KyotoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Kyoto"
+        collectionView.isScrollEnabled = true
         renderer.target = collectionView
-        renderer.adapter.didSelect = { context in
-            print(context.indexPath)
-        }
         self.view.addSubview(collectionView)
         collectionView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
-        self.data = [
-            .init(title: "Fushimi Inari-taisha", image: .init(named: "KyotoFushimiInari")!),
-            .init(title: "Arashiyama", image: .init(named: "KyotoArashiyama")!),
-            .init(title: "KyotoByodoIn", image: .init(named: "KyotoByodoIn")!),
-            .init(title: "Gion", image: .init(named: "KyotoGion")!),
-        ]
+        render(input: [])
     }
     
-    struct KyotoData {
-        var title: String
-        var image: UIImage
-        var isVisited: Bool = false
-    }
+
     
     func render(input: [KyotoData]) {
         renderer.render {
@@ -59,8 +54,7 @@ final class KyotoViewController: UIViewController {
                 id: ID.top,
                 header: KyotoTopItem()
             )
-            Section(id: ID.photot, header: Header(title: "jsofijsof")) {
-                
+            Section(id: ID.photot, header: Header(title: "가고싶은곳")) {
                 Group(of: input.filter { !$0.isVisited }) { data in
                     KyotoImageItem(title: data.title, image: data.image)
                 }

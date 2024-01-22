@@ -51,7 +51,7 @@ final class HeaderContent: UIView {
         titleLabel.snp.makeConstraints { make in
             make.top.bottom.equalToSuperview()
             make.centerY.equalToSuperview()
-            make.leading.equalToSuperview().inset(20)
+            make.leading.equalToSuperview().inset(10)
         }
     }
 }

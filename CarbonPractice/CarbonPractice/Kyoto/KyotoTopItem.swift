@@ -42,7 +42,7 @@ final class KyotoTopComponent: UIView {
         let label = UILabel()
         label.font = .systemFont(ofSize: 15)
         label.numberOfLines = 0
-        label.text = "wjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjwfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjjfowfjf"
+        label.text = "Kinkaku-j, officially named Rokuon-ji (鹿苑寺, literally Deer Garden Temple), is a Zen Buddhist temple in Kyoto, Japan.It is one of the most ptage Sites.Kinkaku-j, officially named Rokuon-ji (鹿苑寺, literally Deer Garden Temple), is a Zen Buddhist temple in Kyoto, Japan.It is one of the most ptage Sites."
         return label
     }()
     

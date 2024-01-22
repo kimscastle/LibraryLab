@@ -12,7 +12,6 @@
 		C03884D32B5536BD00DD7ADB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03884D22B5536BD00DD7ADB /* HomeViewController.swift */; };
 		C03884D82B5536BF00DD7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03884D72B5536BF00DD7ADB /* Assets.xcassets */; };
 		C03884DB2B5536BF00DD7ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03884D92B5536BF00DD7ADB /* LaunchScreen.storyboard */; };
-		C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */; };
 		C03885012B553E3400DD7ADB /* Carbon in Frameworks */ = {isa = PBXBuildFile; productRef = C03885002B553E3400DD7ADB /* Carbon */; };
 		C03885042B553E5000DD7ADB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C03885032B553E5000DD7ADB /* SnapKit */; };
 		C038850A2B5558D200DD7ADB /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03885092B5558D200DD7ADB /* HomeItem.swift */; };
@@ -52,7 +51,6 @@
 		C03884DA2B5536BF00DD7ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C03884DC2B5536BF00DD7ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03884E12B5536BF00DD7ADB /* CarbonPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonPracticeTests.swift; sourceTree = "<group>"; };
 		C03885092B5558D200DD7ADB /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem.swift; sourceTree = "<group>"; };
 		C038850B2B55CABB00DD7ADB /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
 		C038850D2B55CC1C00DD7ADB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 		C03884E42B5536BF00DD7ADB /* CarbonPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
-				C03884E52B5536BF00DD7ADB /* CarbonPracticeTests.swift */,
 				C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */,
 				C0EA64162B5BAD36005038AF /* PangramTest.swift */,
 				C0EA8E592B5D2A160073C1D4 /* KyotoTest.swift */,
@@ -329,7 +326,6 @@
 			files = (
 				C0EA8E5A2B5D2A160073C1D4 /* KyotoTest.swift in Sources */,
 				C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */,
-				C03884E62B5536BF00DD7ADB /* CarbonPracticeTests.swift in Sources */,
 				C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

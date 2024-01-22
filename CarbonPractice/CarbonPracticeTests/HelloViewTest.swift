@@ -42,17 +42,6 @@ final class HelloViewTest: XCTestCase {
         // then
         let numberOfCells = helloVC.renderer.adapter.tableView(helloVC.tableView, numberOfRowsInSection: 0)
         XCTAssertEqual(numberOfCells, 5)
-        
-        let header = helloVC.renderer.adapter.tableView(helloVC.tableView, viewForHeaderInSection: 0)
-        
-        
-//        let helloItem0 = header.renderedComponent!.as(HelloItem.self)
-//
-//        
-//        let content0 = helloItem0?.renderContent()
-//
-//        helloItem0?.render(in: content0!)
-//        print(header.titleLabel.text)
     }
 
     func test_helloVC에서_toggle이_true일때_cell에이름이잘들어갔는지() {

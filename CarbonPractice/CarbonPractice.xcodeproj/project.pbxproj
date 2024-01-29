@@ -20,6 +20,9 @@
 		C03885102B55CFB400DD7ADB /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038850F2B55CFB400DD7ADB /* Global.swift */; };
 		C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03885192B55DD4600DD7ADB /* HelloItem.swift */; };
 		C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C038851B2B55DF4C00DD7ADB /* Footer.swift */; };
+		C0C63F722B679CC800771E55 /* TodoCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */; };
+		C0C63F752B679DA500771E55 /* TodoCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F742B679DA500771E55 /* TodoCustomItem.swift */; };
+		C0C63F772B67A4BF00771E55 /* EmptyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F762B67A4BF00771E55 /* EmptyItem.swift */; };
 		C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */; };
 		C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64122B5B8CDF005038AF /* PangramViewController.swift */; };
 		C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64142B5B8D10005038AF /* PangramItem.swift */; };
@@ -57,6 +60,9 @@
 		C038850F2B55CFB400DD7ADB /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		C03885192B55DD4600DD7ADB /* HelloItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloItem.swift; sourceTree = "<group>"; };
 		C038851B2B55DF4C00DD7ADB /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomViewController.swift; sourceTree = "<group>"; };
+		C0C63F742B679DA500771E55 /* TodoCustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomItem.swift; sourceTree = "<group>"; };
+		C0C63F762B67A4BF00771E55 /* EmptyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyItem.swift; sourceTree = "<group>"; };
 		C0EA640A2B5B5EF2005038AF /* CarbonPractice.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarbonPractice.xctestplan; sourceTree = "<group>"; };
 		C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTest.swift; sourceTree = "<group>"; };
 		C0EA64122B5B8CDF005038AF /* PangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 		C03884CD2B5536BD00DD7ADB /* CarbonPractice */ = {
 			isa = PBXGroup;
 			children = (
+				C0C63F702B679CB300771E55 /* TodoCustom */,
 				C0EA8E4D2B5CD4D30073C1D4 /* Kyoto */,
 				C0EA64112B5B8CCB005038AF /* Pangram */,
 				C03885142B55D54D00DD7ADB /* Hello */,
@@ -170,6 +177,16 @@
 				C03885192B55DD4600DD7ADB /* HelloItem.swift */,
 			);
 			path = Hello;
+			sourceTree = "<group>";
+		};
+		C0C63F702B679CB300771E55 /* TodoCustom */ = {
+			isa = PBXGroup;
+			children = (
+				C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */,
+				C0C63F742B679DA500771E55 /* TodoCustomItem.swift */,
+				C0C63F762B67A4BF00771E55 /* EmptyItem.swift */,
+			);
+			path = TodoCustom;
 			sourceTree = "<group>";
 		};
 		C0EA64112B5B8CCB005038AF /* Pangram */ = {
@@ -303,14 +320,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0EA8E512B5CD5AC0073C1D4 /* KyotoTopItem.swift in Sources */,
+				C0C63F752B679DA500771E55 /* TodoCustomItem.swift in Sources */,
 				C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */,
 				C038851C2B55DF4C00DD7ADB /* Footer.swift in Sources */,
 				C0EA8E532B5CF0A20073C1D4 /* KyotoImageItem.swift in Sources */,
 				C03884D32B5536BD00DD7ADB /* HomeViewController.swift in Sources */,
+				C0C63F772B67A4BF00771E55 /* EmptyItem.swift in Sources */,
 				C038850C2B55CABB00DD7ADB /* HelloViewController.swift in Sources */,
 				C038850A2B5558D200DD7ADB /* HomeItem.swift in Sources */,
 				C03884CF2B5536BD00DD7ADB /* AppDelegate.swift in Sources */,
 				C038850E2B55CC1C00DD7ADB /* Header.swift in Sources */,
+				C0C63F722B679CC800771E55 /* TodoCustomViewController.swift in Sources */,
 				C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */,
 				C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */,
 				C0EA8E4F2B5CD4E20073C1D4 /* KyotoViewController.swift in Sources */,

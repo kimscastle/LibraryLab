@@ -87,6 +87,12 @@ private extension HomeViewController {
             controller = PangramViewController()
         case .kyoto:
             controller = KyotoViewController()
+        case .todo:
+            controller = TodoCustomViewController(datas: [
+                .init(title: "기상", isFinished: false),
+                .init(title: "이불정리", isFinished: true),
+                .init(title: "물먹기", isFinished: true)
+            ])
         default:
             controller = HelloViewController()
         }

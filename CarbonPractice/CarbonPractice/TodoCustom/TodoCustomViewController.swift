@@ -17,19 +17,10 @@ struct TodoCustom {
 
 final class TodoCustomViewController: UIViewController {
     
-    var datas: [TodoCustom] {
+    var datas: [TodoCustom] = [] {
         didSet {
             render()
         }
-    }
-    
-    init(datas: [TodoCustom]) {
-        self.datas = datas
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
     let tableView = UITableView()

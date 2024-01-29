@@ -88,11 +88,13 @@ private extension HomeViewController {
         case .kyoto:
             controller = KyotoViewController()
         case .todo:
-            controller = TodoCustomViewController(datas: [
+            let vc = TodoCustomViewController()
+            vc.datas = [
                 .init(title: "기상", isFinished: false),
                 .init(title: "이불정리", isFinished: true),
                 .init(title: "물먹기", isFinished: true)
-            ])
+            ]
+            controller = vc
         default:
             controller = HelloViewController()
         }

@@ -54,14 +54,14 @@ final class TodoCustomComponent: UIView {
         return label
     }()
     
-    private lazy var checkButton: UIButton = {
+    lazy var checkButton: UIButton = {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
         button.addTarget(self, action: #selector(checkButtonTap), for: .touchUpInside)
         return button
     }()
     
-    private lazy var deleteButton: UIButton = {
+    lazy var deleteButton: UIButton = {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
         button.setTitle("지우기", for: .normal)

@@ -23,6 +23,7 @@
 		C0C63F722B679CC800771E55 /* TodoCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */; };
 		C0C63F752B679DA500771E55 /* TodoCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F742B679DA500771E55 /* TodoCustomItem.swift */; };
 		C0C63F772B67A4BF00771E55 /* EmptyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F762B67A4BF00771E55 /* EmptyItem.swift */; };
+		C0C63F792B67AF7F00771E55 /* TodoCustomTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F782B67AF7F00771E55 /* TodoCustomTest.swift */; };
 		C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */; };
 		C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64122B5B8CDF005038AF /* PangramViewController.swift */; };
 		C0EA64152B5B8D10005038AF /* PangramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA64142B5B8D10005038AF /* PangramItem.swift */; };
@@ -63,6 +64,7 @@
 		C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomViewController.swift; sourceTree = "<group>"; };
 		C0C63F742B679DA500771E55 /* TodoCustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomItem.swift; sourceTree = "<group>"; };
 		C0C63F762B67A4BF00771E55 /* EmptyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyItem.swift; sourceTree = "<group>"; };
+		C0C63F782B67AF7F00771E55 /* TodoCustomTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomTest.swift; sourceTree = "<group>"; };
 		C0EA640A2B5B5EF2005038AF /* CarbonPractice.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CarbonPractice.xctestplan; sourceTree = "<group>"; };
 		C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewTest.swift; sourceTree = "<group>"; };
 		C0EA64122B5B8CDF005038AF /* PangramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PangramViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				C0EA640B2B5B5F7E005038AF /* HelloViewTest.swift */,
 				C0EA64162B5BAD36005038AF /* PangramTest.swift */,
 				C0EA8E592B5D2A160073C1D4 /* KyotoTest.swift */,
+				C0C63F782B67AF7F00771E55 /* TodoCustomTest.swift */,
 			);
 			path = CarbonPracticeTests;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C63F792B67AF7F00771E55 /* TodoCustomTest.swift in Sources */,
 				C0EA8E5A2B5D2A160073C1D4 /* KyotoTest.swift in Sources */,
 				C0EA64172B5BAD36005038AF /* PangramTest.swift in Sources */,
 				C0EA640C2B5B5F7E005038AF /* HelloViewTest.swift in Sources */,

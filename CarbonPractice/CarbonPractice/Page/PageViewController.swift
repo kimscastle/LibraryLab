@@ -63,11 +63,6 @@ class PageViewController: UIViewController {
                     HelloItem(title: "\(index)")
                 }
             }
-            Section(id: "listSection", header: PageHeaderItem(input: inputHeaderData)) {
-                Group(of: inputListData) { index in
-                    HelloItem(title: "\(index)")
-                }
-            }
         }
     }
     

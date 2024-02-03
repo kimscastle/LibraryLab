@@ -11,7 +11,7 @@ import Carbon
 import SnapKit
 
 struct PangramItem: IdentifiableComponent {
-    
+//    var id = UUID()
     var title: String
     
     var id: String {

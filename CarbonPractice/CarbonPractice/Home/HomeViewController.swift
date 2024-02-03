@@ -12,7 +12,7 @@ import SnapKit
 
 final class HomeViewController: UIViewController {
     enum Destination {
-        case hello, pangram, kyoto, emoji, todo, form
+        case hello, pangram, kyoto, emoji, todo, form, page, identi
     }
     
     let tableview = UITableView()
@@ -75,6 +75,14 @@ private extension HomeViewController {
             HomeItem(title: "👤 Profile Form") { [weak self] in
                 self?.push(.form)
             }
+            
+            HomeItem(title: "🗒️ Page") { [weak self] in
+                self?.push(.page)
+            }
+            
+            HomeItem(title: "🆔 identi") { [weak self] in
+                self?.push(.identi)
+            }
         }
     }
     
@@ -95,6 +103,10 @@ private extension HomeViewController {
                 .init(title: "물먹기", isFinished: true)
             ]
             controller = vc
+        case .page:
+            controller = PageViewController()
+        case.identi:
+            controller = IdTestViewController()
         default:
             controller = HelloViewController()
         }

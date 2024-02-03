@@ -23,6 +23,8 @@
 		C0771C642B6DD04B00780707 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0771C632B6DD04B00780707 /* PageViewController.swift */; };
 		C0771C672B6DE0CD00780707 /* IdTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0771C662B6DE0CD00780707 /* IdTestViewController.swift */; };
 		C0771C692B6DE1CD00780707 /* PokemonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0771C682B6DE1CD00780707 /* PokemonItem.swift */; };
+		C0771C6B2B6E126000780707 /* PageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0771C6A2B6E126000780707 /* PageItem.swift */; };
+		C0771C6D2B6E128400780707 /* PageHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0771C6C2B6E128400780707 /* PageHeaderItem.swift */; };
 		C0C63F722B679CC800771E55 /* TodoCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */; };
 		C0C63F752B679DA500771E55 /* TodoCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F742B679DA500771E55 /* TodoCustomItem.swift */; };
 		C0C63F772B67A4BF00771E55 /* EmptyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C63F762B67A4BF00771E55 /* EmptyItem.swift */; };
@@ -67,6 +69,8 @@
 		C0771C632B6DD04B00780707 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		C0771C662B6DE0CD00780707 /* IdTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdTestViewController.swift; sourceTree = "<group>"; };
 		C0771C682B6DE1CD00780707 /* PokemonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonItem.swift; sourceTree = "<group>"; };
+		C0771C6A2B6E126000780707 /* PageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageItem.swift; sourceTree = "<group>"; };
+		C0771C6C2B6E128400780707 /* PageHeaderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHeaderItem.swift; sourceTree = "<group>"; };
 		C0C63F712B679CC800771E55 /* TodoCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomViewController.swift; sourceTree = "<group>"; };
 		C0C63F742B679DA500771E55 /* TodoCustomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCustomItem.swift; sourceTree = "<group>"; };
 		C0C63F762B67A4BF00771E55 /* EmptyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyItem.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				C0771C632B6DD04B00780707 /* PageViewController.swift */,
+				C0771C6A2B6E126000780707 /* PageItem.swift */,
+				C0771C6C2B6E128400780707 /* PageHeaderItem.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -362,7 +368,9 @@
 				C0C63F722B679CC800771E55 /* TodoCustomViewController.swift in Sources */,
 				C0771C692B6DE1CD00780707 /* PokemonItem.swift in Sources */,
 				C038851A2B55DD4600DD7ADB /* HelloItem.swift in Sources */,
+				C0771C6B2B6E126000780707 /* PageItem.swift in Sources */,
 				C0EA64132B5B8CDF005038AF /* PangramViewController.swift in Sources */,
+				C0771C6D2B6E128400780707 /* PageHeaderItem.swift in Sources */,
 				C0771C642B6DD04B00780707 /* PageViewController.swift in Sources */,
 				C0EA8E4F2B5CD4E20073C1D4 /* KyotoViewController.swift in Sources */,
 				C03884D12B5536BD00DD7ADB /* SceneDelegate.swift in Sources */,
